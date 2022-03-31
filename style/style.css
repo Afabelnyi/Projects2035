@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input .btn {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676D7;
+  color: #fff;
+  margin-left: 50px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+.input div {
+  margin: 5px;
+  padding: 8px;
+  border: 3px solid #43ac66;
+  border-radius: 10px;
+}
+.input .card_input .input_elems {
+  width: 80px;
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  margin-right: 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px;
+}
+.input .search_input input {
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 2px 0 2px 5px;
+  width: 170px;
+}
+
+.content_cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.content_cards .container {
+  position: relative;
+}
+.content_cards .container .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  font-size: 32px;
+  margin: 12px;
+}
+.content_cards .container .cardEn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+.content_cards .container .close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #b4a6a6;
+  top: -5px;
+  right: -5px;
+  font-size: 14px;
+  z-index: 2;
+}
+.content_cards .container .hide {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
